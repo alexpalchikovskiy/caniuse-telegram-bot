@@ -1,0 +1,22 @@
+{
+  "name": "caniuse-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for caniuse.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "caniuse"
+  ],
+  "author": "Alex Palchikovskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "jsonfile": "^5.0.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0",
+    "rxjs": "^6.5.2"
+  }
+}
