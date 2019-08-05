@@ -6,7 +6,7 @@ class Answer {
     constructor( value ){
         this._input = value;
 
-        let key = value.toLowerCase().replace(/[^\w\s]/gi, '').replace(/ /g, '-');
+        let key = value.toLowerCase().replace(/[^\w\s-]/gi, '').replace(/ /g, '-');
         this._h = new Handler( key );
     }
 
